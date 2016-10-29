@@ -71,7 +71,7 @@ int main (int argc, char *argv[]) {
       printf("Number %i found at position: %i\n", num, pos);
     }
     else{
-      printf("Number %i not found :(", num);
+      printf("Number %i not found :(\n", num);
     }
     free(arr);
   }
