@@ -46,7 +46,7 @@ int main (int argc, char *argv[]) {
       #pragma omp parallel for schedule(static) lastprivate(pos)
         for(i=0; i<length; i++){
           #pragma omp task shared(pos)
-            if(arr[i] == num){
+            if((*arr+i) == num){
               pos = i;
             }
           #pragma omp taskwait
@@ -59,7 +59,7 @@ int main (int argc, char *argv[]) {
       #pragma omp parallel for schedule(runtime) lastprivate(pos)
         for(i=0; i<length; i++){
           #pragma omp task shared(pos)
-            if(arr[i] == num){
+            if((*arr +i) == num){
               pos = i;
             }
           #pragma omp taskwait
