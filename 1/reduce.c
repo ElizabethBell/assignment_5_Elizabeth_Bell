@@ -48,8 +48,8 @@ int main (int argc, char *argv[]) {
       #pragma omp parallel for schedule(static) lastprivate(min)
         for(i=0; i<length; i++){
           #pragma omp task shared(min)
-            if((*arr+i) < min){
-              min = (*arr+i);
+            if(*(arr+i) < min){
+              min = *(arr+i);
             }
           #pragma omp taskwait
         }
@@ -62,8 +62,8 @@ int main (int argc, char *argv[]) {
       #pragma omp parallel for schedule(runtime) lastprivate(min)
         for(i=0; i<length; i++){
           #pragma omp task shared(min)
-            if((*arr+i) < min){
-              min = (*arr+i);
+            if(*(arr+i) < min){
+              min = *(arr+i);
             }
           #pragma omp taskwait
         }

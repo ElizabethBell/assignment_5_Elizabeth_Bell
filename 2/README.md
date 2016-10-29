@@ -8,7 +8,7 @@ To compile without errors, you will need to use:
 
 gcc -fopenmp -o first first.c
 
-All my data was compiled with a scheduling type of dynamic,100000, but if you want, you can still use something else
+All my data was compiled with a scheduling type of dynamic,100000, but if you want, you can still use static or a different number of iterations.
 
 Output from script.sh on Mamba:
 
