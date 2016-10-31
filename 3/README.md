@@ -9,5 +9,9 @@ To compile without errors, you will need to use:
 
 gcc -fopenmp -o merge merge.c
 
+WARNING: THIS PROGRAM USES A TONE OF MEMORY.
+
+I could not get it to run, and the program was killed. Run at your own discretion.
+
 Output from script.sh on Mamba:
 

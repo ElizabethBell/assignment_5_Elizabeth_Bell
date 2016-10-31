@@ -11,47 +11,32 @@ gcc -fopenmp -o reduce reduce.c
 Output from script.sh on Mamba:
 
 10^8, 1, static, 1
-Time: 9693890
-Min: -888691200
+Time: 9714936
 10^8, 1, dynamic, 1000
-Time: 9677411
-Min: 21434720
+Time: 9671746
 10^8, 1, dynamic, 100000
-Time: 9680360
-Min: 7295328
+Time: 9677114
 10^8, 2, static, 1
-Time: 42991001
-Min: 0
+Time: 42737613
 10^8, 2, dynamic, 1000
-Time: 42505745
-Min: 902582880
+Time: 43245945
 10^8, 2, dynamic, 100000
-Time: 45436900
-Min: 102855264
+Time: 43355027
 10^8, 4, static, 1
-Time: 86946917
-Min: 0
+Time: 86269807
 10^8, 4, dynamic, 1000
-Time: 83402915
-Min: 27152736
+Time: 83985220
 10^8, 4, dynamic, 100000
-Time: 83429288
-Min: 0
+Time: 83523799
 10^8, 8, static, 1
-Time: 109254694
-Min: 0
+Time: 106468755
 10^8, 8, dynamic, 1000
-Time: 109273491
-Min: -154283424
+Time: 109043306
 10^8, 8, dynamic, 100000
-Time: 108697149
-Min: 0
+Time: 109557318
 10^8, 16, static, 1
-Time: 105586937
-Min: 0
+Time: 104542300
 10^8, 16, dynamic, 1000
-Time: 105663060
-Min: -2147472793
+Time: 105366380
 10^8, 16, dynamic, 100000
-Time: 106298403
-Min: 0
+Time: 105129511
