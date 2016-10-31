@@ -35,8 +35,6 @@ int main (int argc, char *argv[]) {
       return 0;
     }
     
-    
-    
     for(i=0; i<length; i++) {
       arr[i] = rand();
     }
@@ -55,7 +53,6 @@ int main (int argc, char *argv[]) {
         }
       gettimeofday(&end, NULL);
       printf("Time: %ld\n", ((end.tv_sec * 1000000 + end.tv_usec)-(start.tv_sec * 1000000 + start.tv_usec)));
-      printf("Min: %d\n", min);
     }
     else {
       gettimeofday(&start, NULL);
@@ -69,7 +66,6 @@ int main (int argc, char *argv[]) {
         }
       gettimeofday(&end, NULL);
       printf("Time: %ld\n", ((end.tv_sec * 1000000 + end.tv_usec)-(start.tv_sec * 1000000 + start.tv_usec)));
-      printf("Min: %d\n", min);
     }
     free(arr);
   }

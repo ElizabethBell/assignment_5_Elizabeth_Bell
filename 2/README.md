@@ -1,4 +1,4 @@
-For first.c, there are 3 command line arguments. Arg1 is the length of the array, arg2 is the number of threads, arg3 will be the scheduling type,
+For first.c, there are 5 command line arguments. Arg1 is the length of the array, arg2 is the number of threads, arg3 will be the scheduling type,
 arg4 is the number of iterations if the schedule is dynamic, and arg5 is the number to search for.
 
 The scheduling types used in this project will both have a number associated with them, 1 being static and 2 being dynamic. If the scheduling type is static,
